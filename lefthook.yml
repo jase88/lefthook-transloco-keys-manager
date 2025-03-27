@@ -1,0 +1,7 @@
+i18n:
+  parallel: true
+  commands:
+    transloco-keys-manager:
+      run: transloco-keys-manager find
+      ## only works if enabling interactive (stdin + tty)
+      interactive: false
